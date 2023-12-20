@@ -11,10 +11,11 @@ function App() {
 
   const [search,setSearch] = useState('');
   const [bookData,setData] =useState([]);
+  const Key = 'AIzaSyArmNlFx7KsP5jctI2AsbSjK0dBLEVVmDg';
  
      const searchbook = (evt) =>{
       if(evt.key==="Enter"){
-        axios.get(`https://www.googleapis.com/books/v1/volumes?q=${search}&key=AIzaSyArmNlFx7KsP5jctI2AsbSjK0dBLEVVmDg`)
+        axios.get(`https://www.googleapis.com/books/v1/volumes?q=${search}&key=${Key}`)
         .then(res=>setData(res.data.items))
         .catch(err=>console.log(err))
         setSearch("")
