@@ -1,0 +1,35 @@
+.searchinput{
+    border-radius: 25px;
+    height:45px;
+    border:2px solid rgba(255, 255, 255, 0.926);
+    padding:5px;
+    text-align: center;
+    background-color: rgb(70, 169, 240);
+    color:white;
+    font-weight: 500;
+    font-size: 3vmin;
+}
+.searchinput:focus{
+    border:2px soli white;
+    outline:none;
+}
+::placeholder{
+    color:white;
+}
+.quote{
+    margin-top: 160px;
+}
+.bgimg{
+    background-image: url(bookbg.avif);
+    background-position: center;
+    background-size: cover;
+    height:100vh;
+  }
+  .text1{
+    font-weight: 700;
+    text-shadow: 1px 1px white;
+  }
+  .text2{
+    font-weight: 700;
+    text-shadow: 1px 1px white;
+  }

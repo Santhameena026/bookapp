@@ -1,0 +1,6 @@
+.bookbg{
+  background-image: url(./Components/bookbg.avif);
+  background-position: center;
+  background-size: cover;
+  height:90vh;
+}
